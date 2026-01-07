@@ -1,8 +1,8 @@
 import { Console } from "@woowacourse/mission-utils";
 
 class InputView {
-  async inputMessage() {
-    return Console.readLineAsync("message\n");
+  async inputMenuNumber() {
+    return Console.readLineAsync("");
   }
 
   async inputMessageParameter(parameter) {

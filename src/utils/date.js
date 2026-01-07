@@ -32,5 +32,6 @@ export function dateTime() {
 export function parseDateTime() {
   const month = months[dateTime().getMonth()];
   const date = dateTime().getDate();
-  return { month, date };
+  const day = days[dateTime().getDay()];
+  return { month, date, day };
 }
