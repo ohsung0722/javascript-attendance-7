@@ -1,7 +1,7 @@
 import InputView from "../view/InputView.js";
 import OutputView from "../view/OutputView.js";
 
-class Controller {
+class ScheduleController {
   #inputView;
   #outputView;
   constructor() {
@@ -14,4 +14,4 @@ class Controller {
   }
 }
 
-export default Controller;
+export default ScheduleController;
